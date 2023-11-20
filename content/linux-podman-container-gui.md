@@ -19,13 +19,14 @@ podman run --rm -it \
     --name "<container_name>" \
     -v "/tmp/.X11-unix:/tmp/.X11-unix:ro" \
     -v "$XAUTHORITY:$XAUTHROITY:ro" \
-    -v "$XDG_RUNTIME_DIR:$XDG_RUNTIME_DIR" \
+    -v "$XDG_RUNTIME_DIR:$XDG_RUNTIME_DIR:ro" \
     -e DISPLAY \
     -e WAYLAND_DISPLAY \
     -e XAUTHORITY \
     -e XDG_RUNTIME_DIR \
     ...
     -v "<host_fs_entity>:<container_fs_entity>:z" \
+    -e "<key>=<value>" \
     -w "<working_directory>"
     "<image_name>"
 ```
