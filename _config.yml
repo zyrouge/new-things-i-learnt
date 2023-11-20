@@ -10,7 +10,7 @@ minima:
         - platform: github
           user_url: "https://github.com/zyrouge/new-things-i-learnt"
 header_pages:
-    - about.md
+    -
 plugins:
     - jekyll-titles-from-headings
 titles_from_headings:
