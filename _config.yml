@@ -1,3 +1,12 @@
-theme: minima
+title: New things I learnt (by Zyrouge)
+description: Documenting everything I newly learn.
+remote_theme: jekyll/minima
 minima:
     skin: auto
+    social_links:
+        - platform: github
+          user_url: "https://github.com/zyrouge/new-things-i-learnt"
+header_pages: []
+author:
+    name: Zyrouge
+    email: "zyrouge@hotmail.com"
